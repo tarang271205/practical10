@@ -1,0 +1,20 @@
+Program: 10 Develop a countdown timer, that allows user to set a starting number of seconds 
+and then count down to zero, displaying each second as it decrements. After the 
+countdown completes write ‘Countdown completed!’. 
+Code: // Program 10: Create Timer 
+#include <stdio.h> 
+void main() 
+{ 
+    int S; 
+    // Ask User For Set Timer 
+    printf("Set Timer In Second::\n"); 
+    scanf("%d" , &S); 
+    printf("Timer Starts Now\n"); 
+    for(int i=S;i>=0;i--) 
+    { sleep(1);        // Here Sleep Use For Delay In Output 
+                               // Here Delay Is In Second 
+ 
+        printf("%d\n" , i); 
+    } 
+    printf("24ce032_TARANG");
+} 
